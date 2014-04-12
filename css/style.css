@@ -1,0 +1,204 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:400,100,200);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body {
+    height: 100% !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Exo', sans-serif;
+}
+
+p, dl, dt, dd {
+    font-family: "Open Sans", sans-serif;
+}
+
+#content{
+    height: 100%;
+    min-height: 500px;
+    width: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100% !important;
+
+    display: table;
+    vertical-align: middle;
+
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+.scroll-section {
+    height: 100%;
+}
+
+
+#intro {
+    height: 100%;
+    overflow: hidden;
+    /*position: absolute;*/
+
+
+    width: 100%;
+
+
+    background-image: url("../img/background.jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#intro-container {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 4px;
+    padding: 5%;
+    margin: 5%;
+}
+
+.title {
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    color: #f5f5f5;
+    font-size: 8em;
+}
+
+#projects {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    width: 100%;
+
+    background-color: greenyellow;
+}
+
+/*#sponsors {*/
+
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*transform: translateY(100%);*/
+    /*-webkit-transform: translateY(100%);*/
+    /*width: 100% !important;*/
+
+    /*background-color: white;*/
+/*}*/
+
+#sponsors {
+
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    /*right: 0;*/
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    width: 100% !important;
+
+    background-color: white;
+}
+
+
+#pin {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+
+.teamShot{
+    margin-top: 10%;
+    background-color: rgba(0,0,0,.5);
+    padding: 5%;
+
+}
+
+.teamDescription {
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f5f5;
+
+}
+
+.teamBackground{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#team1  {
+    background-image: url("../img/blur_turtles.jpg") ;
+
+}
+
+#team2 {
+    background-image: url("../img/blur_trolls.jpg");
+}
+
+#team3 {
+    background-image: url("../img/blur_powerRangers.jpg");
+}
+
+#symTitle{
+    padding-left: 20px;
+    color: #f5f5f5;
+    font-size: 5em;
+}
+
+.sponsorRow {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sponsColumn{
+    width: 100% !important;
+}
+
+.sym-title-row {
+    background-color: #91BD36;
+}
+
+#register{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    width: 100%;
+    background-color: #5A5A5A;
+    color: #f5f5f5;
+}
+#registerDiv {
+    padding: 5%;
+}
+
+.registerSubHeading {
+    color: #f5f5f5;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.btn-success {
+    background-color: #91BD36;
+    border-color: #7aa333;
+}
+
+.btn-success:hover {
+    background-color: #5c7822;
+    border-color: #455d1d;
+}
